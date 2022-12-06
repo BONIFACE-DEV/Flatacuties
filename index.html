@@ -1,32 +1,34 @@
 <html>
   <head>
     <title>Flatacuties</title>
+<!--link to css file-->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="logo">
-      <h1>Flatacuties</h1>
-    </div>
 
-    <div id="character-bar">
-    
-    </div>
+  <!-- web heading-->
+      <h1>Flatacuties</h1>
+
+
+    <div id="character-bar"> </div>
 
     <div class="characterInfo">
       <div id="detailed-info">
-        <p id="name">Character's Name</p>
-        <img
-          id="image"
-          src="dummy.gif"
-          alt="Character's Name"
-        />
+        <p id="name">Choose the cuttiest  Flatacutie</p>
+
+<!--image displaying before you pick your cuttest animal-->
+        <img id="image"src="dummy.gif" alt="dummy Name"/>
      
         <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
+
+<!--creation of  votes form and submit votes btn -->
         <form id="votes-form">
           <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
           <input type="submit" value="Add Votes" />
         </form>
+<!--reset button-->
         <button id="reset-btn">Reset Votes</button>
+ <!--link to js file-->       
         <script src="index.js"></script>
   </body>
 </html>
